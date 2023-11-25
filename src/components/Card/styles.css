@@ -1,0 +1,19 @@
+.card {
+  @apply w-[176px] text-xs relative flex flex-col flex-grow-0 flex-shrink-0 basis-auto;
+}
+
+.card--badge {
+  @apply bg-white rounded-sm px-2 py-1 font-normal text-sm uppercase absolute start-2 top-2;
+}
+
+.card--image {
+  @apply  w-fit rounded-md mb-2;
+}
+
+.card--stats {
+  @apply flex items-center mb-1;
+}
+
+.card--star {
+  @apply w-[14px] mr-1;
+}

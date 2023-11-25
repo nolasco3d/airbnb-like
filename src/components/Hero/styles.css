@@ -1,0 +1,19 @@
+.hero-banner {
+  @apply flex flex-col items-center p-6;
+} 
+
+.hero-banner > img {
+  @apply mx-auto mb-8;
+}
+
+.hero-banner__text {
+  
+}
+
+.hero-banner__text > h1{
+  @apply font-semibold text-4xl mb-1;
+}
+
+.hero-banner__text > p{
+  @apply w-4/5;
+}

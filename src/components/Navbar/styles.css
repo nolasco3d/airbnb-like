@@ -1,0 +1,4 @@
+.navbar {
+  @apply h-[70px] bg-white drop-shadow flex items-center px-8; 
+
+} 
